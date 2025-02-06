@@ -131,6 +131,10 @@ nav button#menuButton{
     border-radius: 5px;
 }
 
+.main .about p {
+    font-size: 14px;
+}
+
 .main .right img{
     width: 500px;
 }
@@ -149,13 +153,14 @@ nav button#menuButton{
 
 .skills .skill-items{
     display: flex;
-    margin-top: 70px;
+    margin-top: 50px;
     gap: 30px;
+    margin-bottom: 50px;
 }
 
 .skills .skill-items .item{
     background-color: #deebee;
-    width: 25%;
+    width: 50%;
     border-radius: 10px;
     padding: 32px;
     border-bottom: 4px solid transparent;
@@ -196,26 +201,6 @@ nav button#menuButton{
     color: #1c1e53;
 }
 
-.about{
-    padding: 110px;
-    display: flex;
-    align-items: center;
-    gap: 60px;
-}
-
-.about .left{
-    background-color: #deebee;
-    border-radius: 10px 10px 0 0;
-}
-
-.about .left img{
-    width: 440px;
-}
-
-.about .right p{
-    font-size: 16px;
-    margin-top: 30px;
-}
 
 .portfolio{
     background-color: #deebee;
@@ -300,7 +285,7 @@ nav button#menuButton{
 }
 
 .expertise .devSkill{
-    margin-top: 50px;
+    margin-top: 40px;
     display: flex;
     gap: 40px;
 }
@@ -384,6 +369,10 @@ footer .separator{
 footer .bottom .links a{
     font-size: 12px;
     margin-right: 14px;
+}
+
+footer .bottom .contact p {
+    color:#1c1e53;
 }
 
 @media screen and (max-width: 1200px) {
@@ -525,10 +514,6 @@ footer .bottom .links a{
 
     .skills .skill-items{
         gap: 8px;
-    }
-
-    .about{
-        padding: 85px 42px;
     }
 
     .portfolio{

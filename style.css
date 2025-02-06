@@ -131,7 +131,7 @@ nav button#menuButton{
     border-radius: 5px;
 }
 
-.main .about p {
+.main .left .about p {
     font-size: 14px;
 }
 
@@ -144,7 +144,7 @@ nav button#menuButton{
 }
 
 .skills h3,
-.about .right h3,
+.about h3,
 .portfolio .header h3,
 .expertise h3{
     font-size: 40px;
@@ -389,6 +389,10 @@ footer .bottom .contact p {
         font-size: 18px;
     }
 
+    .main .left .about p {
+        font-size: 14px;
+    }
+
     .main .right img{
         width: 380px;
     }
@@ -403,19 +407,12 @@ footer .bottom .contact p {
         width: 49%;
     }
 
-    .about .left img{
-        width: 370px;
-    }
 
     .skills h3,
-    .about .right h3,
+    .about h3
     .portfolio .header h3,
     .expertise h3{
         font-size: 32px;
-    }
-
-    .about .right p{
-        font-size: 15px;
     }
 
     .expertise .devSkill .item .rating{
@@ -524,6 +521,10 @@ footer .bottom .contact p {
         gap: 18px;
     }
 
+    .portfolio .portfo-items .item{
+        width: 90%;
+    }
+
     .expertise{
         padding: 85px 42px;
     }
@@ -571,7 +572,7 @@ footer .bottom .contact p {
     }
 
     .portfolio .portfo-items .item{
-        width: 80%;
+        width: 95%;
     }
 
     .expertise .devSkill .item{
